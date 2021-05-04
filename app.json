@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "TravGo_Project",
+    "slug": "TravGo_Project",
+    "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.synerror.travgo",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    }
+  }
+}
